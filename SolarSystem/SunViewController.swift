@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ExploreViewController: UIViewController {
+class SunViewController: UIViewController {
     
     let sunInfo = Sun().info
     

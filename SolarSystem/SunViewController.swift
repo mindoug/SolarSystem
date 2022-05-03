@@ -23,10 +23,7 @@ class SunViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .black
-        distanceSlider.isHidden = true
-        imageView.isHidden = true
-        infoTextView.isHidden = true
+        infoTextView.text = sunInfo
     }
     
     @IBAction func sliderValueChanged(_ sender: UISlider) {

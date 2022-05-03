@@ -20,20 +20,10 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="solarsystem" translatesAutoresizingMaskIntoConstraints="NO" id="C4E-2v-kEj">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="EZT-jt-hEH">
-                                <rect key="frame" x="61" y="252" width="223" height="201"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text"> “Exploration is in our nature. We began as wanderers, and we are wanderers still. We have lingered long enough on the shores of the cosmic ocean. We are ready at last to set sail for the stars.” 
-― Carl Sagan, Cosmos</string>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vEu-nt-nnZ">
-                                <rect key="frame" x="172" y="774" width="70" height="47"/>
+                                <rect key="frame" x="20" y="772" width="374" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="47" id="TNm-7i-pUL"/>
+                                    <constraint firstAttribute="height" constant="50" id="0qE-Gf-dl9"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Start"/>
@@ -41,17 +31,32 @@
                                     <segue destination="1U3-UV-7g7" kind="show" id="huh-Sr-yfO"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="EZT-jt-hEH">
+                                <rect key="frame" x="20" y="297" width="374" height="350"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="350" id="ppQ-OH-H97"/>
+                                </constraints>
+                                <string key="text"> “Exploration is in our nature. We began as wanderers, and we are wanderers still. We have lingered long enough on the shores of the cosmic ocean. We are ready at last to set sail for the stars.” 
+― Carl Sagan, Cosmos</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.61176472900000001" green="0.75686275960000005" blue="0.81176471709999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="vEu-nt-nnZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="172" id="61t-si-U2x"/>
-                            <constraint firstItem="C4E-2v-kEj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Eus-JT-ODC"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="C4E-2v-kEj" secondAttribute="trailing" id="R5l-WL-ZwZ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vEu-nt-nnZ" secondAttribute="trailing" constant="172" id="YSj-Ke-iXi"/>
-                            <constraint firstItem="C4E-2v-kEj" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="iTp-EG-9Yw"/>
-                            <constraint firstAttribute="bottom" secondItem="C4E-2v-kEj" secondAttribute="bottom" id="vCp-t8-POl"/>
-                            <constraint firstItem="vEu-nt-nnZ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-41" id="zb8-UC-f5y"/>
+                            <constraint firstAttribute="bottom" secondItem="C4E-2v-kEj" secondAttribute="bottom" id="26U-ui-u8c"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vEu-nt-nnZ" secondAttribute="trailing" constant="20" id="7ah-EJ-Yck"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EZT-jt-hEH" secondAttribute="trailing" constant="20" id="P6H-JM-ilt"/>
+                            <constraint firstItem="C4E-2v-kEj" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ajc-3e-DI8"/>
+                            <constraint firstItem="vEu-nt-nnZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="eg4-wJ-7TD"/>
+                            <constraint firstItem="C4E-2v-kEj" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="jEQ-6A-UNw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vEu-nt-nnZ" secondAttribute="bottom" constant="40" id="lNZ-lY-wKf"/>
+                            <constraint firstItem="C4E-2v-kEj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="p6Z-5C-DCG"/>
+                            <constraint firstItem="EZT-jt-hEH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ucc-iu-qTp"/>
+                            <constraint firstItem="vEu-nt-nnZ" firstAttribute="top" secondItem="EZT-jt-hEH" secondAttribute="bottom" constant="125" id="yYK-0E-IGu"/>
                         </constraints>
                     </view>
                 </viewController>

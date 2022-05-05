@@ -68,18 +68,18 @@
         <scene sceneID="axT-lv-J3L">
             <objects>
                 <viewController id="1U3-UV-7g7" userLabel="Sun View Controller" customClass="SunViewController" customModule="SolarSystem" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Gt6-DI-9pm">
+                    <view key="view" contentMode="scaleAspectFill" id="Gt6-DI-9pm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="3PD-GG-PkE">
-                                <rect key="frame" x="0.0" y="44" width="414" height="798"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="3PD-GG-PkE">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="sun" translatesAutoresizingMaskIntoConstraints="NO" id="nHE-9A-ETW">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="332"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="376"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How far is the earth from the sun?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SAj-CT-XAa">
-                                        <rect key="frame" x="64.333333333333343" y="352" width="285.66666666666663" height="23"/>
+                                        <rect key="frame" x="64.333333333333343" y="396" width="285.66666666666663" height="23"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="23" id="EsW-se-uHI"/>
                                         </constraints>
@@ -88,7 +88,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="150" translatesAutoresizingMaskIntoConstraints="NO" id="hlN-JN-S40">
-                                        <rect key="frame" x="18" y="395" width="378" height="31"/>
+                                        <rect key="frame" x="18" y="439" width="378" height="31"/>
                                         <color key="tintColor" systemColor="systemOrangeColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="hkh-gY-wgi"/>
@@ -100,7 +100,7 @@
                                         </connections>
                                     </slider>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V8o-kP-Uzd">
-                                        <rect key="frame" x="199.33333333333334" y="445" width="15.666666666666657" height="40"/>
+                                        <rect key="frame" x="199.33333333333334" y="489" width="15.666666666666657" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="ztG-s8-cTX"/>
                                         </constraints>
@@ -109,7 +109,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="million kilometers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tci-rJ-ueb">
-                                        <rect key="frame" x="141" y="505" width="132.33333333333337" height="22"/>
+                                        <rect key="frame" x="141" y="549" width="132.33333333333337" height="22"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="22" id="QGR-cx-LOL"/>
                                         </constraints>
@@ -118,7 +118,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wC1-RF-Qwc">
-                                        <rect key="frame" x="182.66666666666666" y="547" width="51" height="31"/>
+                                        <rect key="frame" x="182.66666666666666" y="591" width="51" height="31"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="31" id="NoU-xo-Z6K"/>
@@ -131,7 +131,7 @@
                                         </connections>
                                     </switch>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="d3t-w7-9iA">
-                                        <rect key="frame" x="20" y="598" width="374" height="200"/>
+                                        <rect key="frame" x="20" y="642" width="374" height="200"/>
                                         <subviews>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rdt-Wq-zzD">
                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="200"/>
@@ -158,21 +158,21 @@
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="d3t-w7-9iA" secondAttribute="trailing" constant="20" id="4Pz-oF-mSM" userLabel="trailing = Scroll View.trailing"/>
-                                    <constraint firstItem="nHE-9A-ETW" firstAttribute="top" secondItem="3PD-GG-PkE" secondAttribute="top" id="Anl-N5-Erk"/>
                                     <constraint firstItem="d3t-w7-9iA" firstAttribute="leading" secondItem="3PD-GG-PkE" secondAttribute="leading" constant="20" id="FiO-mb-njF" userLabel="Scroll View.leading = leading"/>
                                     <constraint firstItem="nHE-9A-ETW" firstAttribute="leading" secondItem="3PD-GG-PkE" secondAttribute="leading" id="XEy-dz-QkH"/>
                                     <constraint firstItem="hlN-JN-S40" firstAttribute="leading" secondItem="3PD-GG-PkE" secondAttribute="leading" constant="20" id="ZEU-SE-Y1W"/>
                                     <constraint firstAttribute="trailing" secondItem="nHE-9A-ETW" secondAttribute="trailing" id="grr-dr-BOa"/>
                                     <constraint firstAttribute="trailing" secondItem="hlN-JN-S40" secondAttribute="trailing" constant="20" id="nJw-tk-b3A"/>
+                                    <constraint firstItem="nHE-9A-ETW" firstAttribute="top" secondItem="3PD-GG-PkE" secondAttribute="top" id="wZw-jm-Uhv"/>
                                 </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="htR-Xe-F0L"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
                         <color key="tintColor" systemColor="systemOrangeColor"/>
                         <constraints>
-                            <constraint firstItem="3PD-GG-PkE" firstAttribute="top" secondItem="htR-Xe-F0L" secondAttribute="top" id="22c-C4-0jF"/>
-                            <constraint firstItem="htR-Xe-F0L" firstAttribute="bottom" secondItem="3PD-GG-PkE" secondAttribute="bottom" id="Pa7-Vk-dK7"/>
+                            <constraint firstItem="3PD-GG-PkE" firstAttribute="top" secondItem="Gt6-DI-9pm" secondAttribute="top" id="22c-C4-0jF"/>
+                            <constraint firstAttribute="bottom" secondItem="3PD-GG-PkE" secondAttribute="bottom" id="Pa7-Vk-dK7"/>
                             <constraint firstItem="3PD-GG-PkE" firstAttribute="leading" secondItem="htR-Xe-F0L" secondAttribute="leading" id="S8D-gF-Pws"/>
                             <constraint firstAttribute="trailing" secondItem="3PD-GG-PkE" secondAttribute="trailing" id="jLM-Zo-RXs"/>
                         </constraints>
@@ -197,9 +197,6 @@
         <image name="sun.max.fill" catalog="system" width="128" height="124"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

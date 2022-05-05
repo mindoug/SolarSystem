@@ -24,6 +24,7 @@ class SunViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         infoTextView.text = sunInfo
+        self.navigationController?.navigationBar.tintColor = .black
     }
     
     @IBAction func sliderValueChanged(_ sender: UISlider) {

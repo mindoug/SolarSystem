@@ -29,6 +29,7 @@
 		7228F7FB281AEBDF007ECC4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7228F7FD281AEBDF007ECC4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7228F803281C1F40007ECC4A /* SunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunViewController.swift; sourceTree = "<group>"; };
+		72688F6928245D1900F7C045 /* README4.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README4.md; sourceTree = "<group>"; };
 		72A52D272824368C00990E7D /* README3.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README3.md; sourceTree = "<group>"; };
 		72A7C373282036A400408EB6 /* README2.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README2.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -50,6 +51,7 @@
 				72271FAB281D861700B39463 /* README1.md */,
 				72A7C373282036A400408EB6 /* README2.md */,
 				72A52D272824368C00990E7D /* README3.md */,
+				72688F6928245D1900F7C045 /* README4.md */,
 				7228F7EE281AEBDD007ECC4A /* SolarSystem */,
 				7228F7ED281AEBDD007ECC4A /* Products */,
 			);

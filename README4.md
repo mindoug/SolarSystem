@@ -17,4 +17,5 @@
 
 9.  build and run again to check
 
-10. Add planet and mars view controllers and set up tabs
+10. Add a view controller called NASA and set up tabs.  
+

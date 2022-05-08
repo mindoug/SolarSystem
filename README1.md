@@ -12,6 +12,7 @@ Session 1 Objectives:
   
 Session 2 Objectives:
 - Create a button, image, slider, switch, scroll view and make the appropriate connections and underlying code.
+- Add a text field that changes the label to "Welcome, \(name)"
 - Use a button to segue to second view controller
 - Create and set custom class for second view controller
 - Create a swift file with a Sun struct 

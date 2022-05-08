@@ -80,19 +80,43 @@
 			children = (
 				7228F7EF281AEBDD007ECC4A /* AppDelegate.swift */,
 				7228F7F1281AEBDD007ECC4A /* SceneDelegate.swift */,
-				7228F7F3281AEBDD007ECC4A /* ViewController.swift */,
-				7228F803281C1F40007ECC4A /* SunViewController.swift */,
-				72271FA9281C5A8400B39463 /* Sun.swift */,
-				72D79C5D2827129600ED4DCE /* Planet.swift */,
+				72E657B928272DEB00F022E5 /* Views */,
+				72E657BA28272EB800F022E5 /* Controllers */,
+				72E657B828272DCB00F022E5 /* Model */,
 				72D79C5F2827150600ED4DCE /* Constants.swift */,
-				7228F7F5281AEBDD007ECC4A /* Main.storyboard */,
 				7228F7F8281AEBDF007ECC4A /* Assets.xcassets */,
 				7228F7FA281AEBDF007ECC4A /* LaunchScreen.storyboard */,
 				7228F7FD281AEBDF007ECC4A /* Info.plist */,
-				72D79C5928270FF500ED4DCE /* PlanetTableViewCell.swift */,
-				72D79C5B282711C800ED4DCE /* PlanetTableViewController.swift */,
 			);
 			path = SolarSystem;
+			sourceTree = "<group>";
+		};
+		72E657B828272DCB00F022E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				72271FA9281C5A8400B39463 /* Sun.swift */,
+				72D79C5D2827129600ED4DCE /* Planet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		72E657B928272DEB00F022E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7228F7F5281AEBDD007ECC4A /* Main.storyboard */,
+				72D79C5928270FF500ED4DCE /* PlanetTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		72E657BA28272EB800F022E5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7228F7F3281AEBDD007ECC4A /* ViewController.swift */,
+				7228F803281C1F40007ECC4A /* SunViewController.swift */,
+				72D79C5B282711C800ED4DCE /* PlanetTableViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

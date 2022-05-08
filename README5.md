@@ -1,14 +1,16 @@
 #  Table View Controller
 
-1.  Drag a table view controller on to the storyboard.  Embed in a nav contorller. CTRL drag from tab bar controller to nav controller and select relationship segue: view controllers.  Set the Item to Planets and select SF symbol.
+1.  Drag a table view controller on to the storyboard.  Select the table view and in the size inspector, set the row height to 110. 
 
-2.  Drag an image view above the table view cell and set the height to 150.  Select the earth and moon image and aspect fill.
+2.  Embed in a nav contorller. CTRL drag from tab bar controller to nav controller and select relationship segue: view controllers.  Set the Item to Planets and select SF symbol.
 
-3.  drag an image view into the content view of the cell prototype and set constraints top, leading and bottom.  Set height and width to 100 x 100.
+3.  Drag an image view above the table view cell and set the height to 150.  Select the earth and moon image and aspect fill. Drag a label to the bottom of the table view (below the cell) and center it. It should say "Facts and photos from nasa.gov."
 
-4.  Drag a label to the right of the image. Set top and trailing constraints to 0 and left constraint to 10. Set the font to Large Title.
+4.  drag an image view into the content view of the cell prototype and set constraints top 10, leading 10 and bottom.  Set height and width to 90 x 90.
 
-5.  Drag a label underneath the top label and set leading to 10 and trailing to 0.  Set constraint to center vertically. Set the font to body.
+4.  Drag a label to the right of the image. Set trailing constraint to 0 and top, left and bottom constraints to 10. Set the font to Large Title.
+
+5.  Drag a label underneath the top label and set top and leading to 10 and trailing to 0.  Set constraint to center vertically. Set the font to body.
 
 6.  Add a new cocoa touch file called PlanetTableViewCell that inherits from UITableViewCell.  Select the class in the identity inspector of the cell. In the attrbutes inspector for the cell, set the identifier to "Planet Cell"
 

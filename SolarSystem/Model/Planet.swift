@@ -19,7 +19,7 @@ struct Planet {
     static func loadPlanets() -> [Planet] {
         return [
             Planet(name: "Mercury", shortDescription: Constants.mercuryS, description: Constants.mercuryD, fact: Constants.mercuryF, planetImage: UIImage(named: "mercury")),
-            Planet(name: "Venus", shortDescription: Constants.venusD, description: Constants.venusF, fact: Constants.venusF, planetImage: UIImage(named: "venus")),
+            Planet(name: "Venus", shortDescription: Constants.venusS, description: Constants.venusD, fact: Constants.venusF, planetImage: UIImage(named: "venus")),
             Planet(name: "Earth", shortDescription: Constants.earthS, description: Constants.earthD, fact: Constants.earthF, planetImage: UIImage(named: "earth")),
             Planet(name: "Mars", shortDescription: Constants.marsS, description: Constants.marsD, fact: Constants.marsF, planetImage: UIImage(named: "mars")),
             Planet(name: "Jupiter", shortDescription: Constants.jupiterS, description: Constants.jupiterD, fact: Constants.jupiterF, planetImage: UIImage(named: "jupiter")),

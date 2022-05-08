@@ -19,6 +19,7 @@
 		72D79C5C282711C800ED4DCE /* PlanetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D79C5B282711C800ED4DCE /* PlanetTableViewController.swift */; };
 		72D79C5E2827129600ED4DCE /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D79C5D2827129600ED4DCE /* Planet.swift */; };
 		72D79C602827150600ED4DCE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D79C5F2827150600ED4DCE /* Constants.swift */; };
+		72E657BD282846DE00F022E5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E657BC282846DE00F022E5 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,11 +37,13 @@
 		72688F6928245D1900F7C045 /* README4.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README4.md; sourceTree = "<group>"; };
 		72A52D272824368C00990E7D /* README3.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README3.md; sourceTree = "<group>"; };
 		72A7C373282036A400408EB6 /* README2.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README2.md; sourceTree = "<group>"; };
-		72D79C58282707D500ED4DCE /* README5.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README5.md; sourceTree = "<group>"; };
+		72D79C58282707D500ED4DCE /* README5A.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README5A.md; sourceTree = "<group>"; };
 		72D79C5928270FF500ED4DCE /* PlanetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetTableViewCell.swift; sourceTree = "<group>"; };
 		72D79C5B282711C800ED4DCE /* PlanetTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetTableViewController.swift; sourceTree = "<group>"; };
 		72D79C5D2827129600ED4DCE /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 		72D79C5F2827150600ED4DCE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		72E657BB2828136400F022E5 /* README5B.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README5B.md; sourceTree = "<group>"; };
+		72E657BC282846DE00F022E5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +64,8 @@
 				72A7C373282036A400408EB6 /* README2.md */,
 				72A52D272824368C00990E7D /* README3.md */,
 				72688F6928245D1900F7C045 /* README4.md */,
-				72D79C58282707D500ED4DCE /* README5.md */,
+				72D79C58282707D500ED4DCE /* README5A.md */,
+				72E657BB2828136400F022E5 /* README5B.md */,
 				7228F7EE281AEBDD007ECC4A /* SolarSystem */,
 				7228F7ED281AEBDD007ECC4A /* Products */,
 			);
@@ -115,6 +119,7 @@
 				7228F7F3281AEBDD007ECC4A /* ViewController.swift */,
 				7228F803281C1F40007ECC4A /* SunViewController.swift */,
 				72D79C5B282711C800ED4DCE /* PlanetTableViewController.swift */,
+				72E657BC282846DE00F022E5 /* DetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -197,6 +202,7 @@
 				7228F7F0281AEBDD007ECC4A /* AppDelegate.swift in Sources */,
 				72D79C5C282711C800ED4DCE /* PlanetTableViewController.swift in Sources */,
 				7228F7F2281AEBDD007ECC4A /* SceneDelegate.swift in Sources */,
+				72E657BD282846DE00F022E5 /* DetailViewController.swift in Sources */,
 				72D79C5A28270FF500ED4DCE /* PlanetTableViewCell.swift in Sources */,
 				72D79C602827150600ED4DCE /* Constants.swift in Sources */,
 			);

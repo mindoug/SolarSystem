@@ -253,10 +253,112 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="wmM-R3-Ih6"/>
+                    <connections>
+                        <segue destination="96P-Og-Jiy" kind="show" identifier="planetSegue" id="LCd-rq-cjF"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GHU-aO-AGo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1721.7391304347827" y="768.75"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="6f0-DT-w5S">
+            <objects>
+                <viewController id="96P-Og-Jiy" customClass="DetailViewController" customModule="SolarSystem" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dPF-2J-h3p">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="O1z-jd-tdh">
+                                <rect key="frame" x="0.0" y="88" width="414" height="297"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="D5y-Nc-aFt">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="250"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nzn-Xw-fES">
+                                        <rect key="frame" x="0.0" y="260" width="414" height="37"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="O1z-jd-tdh" secondAttribute="height" multiplier="46:33" id="ath-Lr-uc5"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="w9r-XU-HiT">
+                                <rect key="frame" x="10" y="395" width="394" height="126"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Interesting Fact" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w1u-RA-cvM">
+                                        <rect key="frame" x="0.0" y="0.0" width="394" height="23"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="oUQ-rB-tU4">
+                                        <rect key="frame" x="0.0" y="33" width="394" height="93"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="w9r-XU-HiT" secondAttribute="height" multiplier="197:63" id="UOf-xx-xL7"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="3Y8-rm-92F">
+                                <rect key="frame" x="10" y="531" width="394" height="206"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Planet Description" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ntc-2J-liD">
+                                        <rect key="frame" x="0.0" y="0.0" width="394" height="23"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fWk-4K-khV">
+                                        <rect key="frame" x="0.0" y="33" width="394" height="173"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="3Y8-rm-92F" secondAttribute="height" multiplier="197:103" id="Vfr-bn-mnC"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ub8-Qo-24V"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="w9r-XU-HiT" firstAttribute="top" secondItem="O1z-jd-tdh" secondAttribute="bottom" constant="10" id="2Jy-FA-MuF"/>
+                            <constraint firstItem="w9r-XU-HiT" firstAttribute="leading" secondItem="Ub8-Qo-24V" secondAttribute="leading" constant="10" id="57Z-S1-C4q"/>
+                            <constraint firstItem="3Y8-rm-92F" firstAttribute="top" secondItem="w9r-XU-HiT" secondAttribute="bottom" constant="10" id="9bi-D5-Vwa"/>
+                            <constraint firstItem="Ub8-Qo-24V" firstAttribute="trailing" secondItem="3Y8-rm-92F" secondAttribute="trailing" constant="10" id="DqN-mr-tb2"/>
+                            <constraint firstItem="3Y8-rm-92F" firstAttribute="top" secondItem="w9r-XU-HiT" secondAttribute="bottom" constant="10" id="PKN-Ew-Tyc"/>
+                            <constraint firstItem="Ub8-Qo-24V" firstAttribute="trailing" secondItem="O1z-jd-tdh" secondAttribute="trailing" id="Xce-xF-wtq"/>
+                            <constraint firstItem="O1z-jd-tdh" firstAttribute="leading" secondItem="Ub8-Qo-24V" secondAttribute="leading" id="ctx-an-o6A"/>
+                            <constraint firstItem="3Y8-rm-92F" firstAttribute="leading" secondItem="Ub8-Qo-24V" secondAttribute="leading" constant="10" id="e1d-2n-w05"/>
+                            <constraint firstItem="Ub8-Qo-24V" firstAttribute="trailing" secondItem="w9r-XU-HiT" secondAttribute="trailing" constant="10" id="iNq-uc-GBL"/>
+                            <constraint firstItem="O1z-jd-tdh" firstAttribute="top" secondItem="Ub8-Qo-24V" secondAttribute="top" id="lhM-cY-Y2Q"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="P0m-TP-dC8"/>
+                    <connections>
+                        <outlet property="planetDescriptionLabel" destination="Ntc-2J-liD" id="ty1-Jp-JFi"/>
+                        <outlet property="planetDescriptionTextView" destination="fWk-4K-khV" id="S0c-Rg-0Z5"/>
+                        <outlet property="planetFactLabel" destination="w1u-RA-cvM" id="tR9-WA-BVD"/>
+                        <outlet property="planetFactTextView" destination="oUQ-rB-tU4" id="mnH-l4-joh"/>
+                        <outlet property="planetImage" destination="D5y-Nc-aFt" id="fHi-HI-RqL"/>
+                        <outlet property="planetNameLabel" destination="Nzn-Xw-fES" id="6IU-Ya-B5q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fdx-A8-BSo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2453.6231884057975" y="768.75"/>
         </scene>
         <!--NASA-->
         <scene sceneID="PR1-eD-gNs">

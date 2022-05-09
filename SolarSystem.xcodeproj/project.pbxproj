@@ -32,7 +32,6 @@
 		7228F803281C1F40007ECC4A /* SunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunViewController.swift; sourceTree = "<group>"; };
 		72A52D272824368C00990E7D /* README3.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README3.md; sourceTree = "<group>"; };
 		72A7C373282036A400408EB6 /* README2.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README2.md; sourceTree = "<group>"; };
-		72A958DE2824495B000B641D /* README4.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README4.md; sourceTree = "<group>"; };
 		72E985F72828AF9E00AF1FA7 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -53,7 +52,6 @@
 				72271FAB281D861700B39463 /* README1.md */,
 				72A7C373282036A400408EB6 /* README2.md */,
 				72A52D272824368C00990E7D /* README3.md */,
-				72A958DE2824495B000B641D /* README4.md */,
 				7228F7EE281AEBDD007ECC4A /* SolarSystem */,
 				7228F7ED281AEBDD007ECC4A /* Products */,
 			);
@@ -75,11 +73,11 @@
 				7228F7F3281AEBDD007ECC4A /* ViewController.swift */,
 				7228F803281C1F40007ECC4A /* SunViewController.swift */,
 				72271FA9281C5A8400B39463 /* Sun.swift */,
+				72E985F72828AF9E00AF1FA7 /* Quote.swift */,
 				7228F7F5281AEBDD007ECC4A /* Main.storyboard */,
 				7228F7F8281AEBDF007ECC4A /* Assets.xcassets */,
 				7228F7FA281AEBDF007ECC4A /* LaunchScreen.storyboard */,
 				7228F7FD281AEBDF007ECC4A /* Info.plist */,
-				72E985F72828AF9E00AF1FA7 /* Quote.swift */,
 			);
 			path = SolarSystem;
 			sourceTree = "<group>";

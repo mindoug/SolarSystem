@@ -17,3 +17,32 @@ Sun
 - add height constraints and top/bottom spacing for each of the items except the sun image. Pin sun image 0,0,0 on top, leading and trailing. 
 - put everything in a vertical stack view centered and set top, bottom, leading and trailing constraints for the stack view
 
+OPTIONAL-
+
+Random solar system quote:
+
+1. Add Quote data swift file with the randomElement function at bottom
+    Example:
+    
+    struct Quote {
+    var quotes: [String] = [
+    """
+    "Insert multi-line quote here..." - Author unknown
+    """,
+    ...
+    ]
+    
+    lazy var randomQuote = quotes.randomElement()!
+    }
+
+2. In the view controller:
+
+    connect an outlet to the text view named quoteTextView
+
+    Add to the top of vc:
+    
+    var quote = Quote()
+ 
+    Add in viewDidLoad: 
+     
+    quoteTextView.text = self.quote.randomQuote

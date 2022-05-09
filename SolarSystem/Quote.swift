@@ -51,7 +51,7 @@ struct Quote {
  ]
   
  
-  // lazy var means property is null until accessed for the first time, which means self.bounds is availible because property cannot be accessed until after self is initialized
+  // lazy var lets you delay initializing stored properties. It is initialized the first time the property is called.
   
   lazy var randomQuote = quotes.randomElement()!
   

@@ -14,7 +14,8 @@
 		7228F7F7281AEBDD007ECC4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7228F7F5281AEBDD007ECC4A /* Main.storyboard */; };
 		7228F7F9281AEBDF007ECC4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7228F7F8281AEBDF007ECC4A /* Assets.xcassets */; };
 		7228F7FC281AEBDF007ECC4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7228F7FA281AEBDF007ECC4A /* LaunchScreen.storyboard */; };
-		7228F804281C1F40007ECC4A /* SunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7228F803281C1F40007ECC4A /* SunViewController.swift */; };
+		7228F804281C1F40007ECC4A /* SunMoonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7228F803281C1F40007ECC4A /* SunMoonViewController.swift */; };
+		7256E87D282977EC00F9D116 /* Moon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7256E87C282977EC00F9D116 /* Moon.swift */; };
 		72E985F82828AF9E00AF1FA7 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E985F72828AF9E00AF1FA7 /* Quote.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +30,8 @@
 		7228F7F8281AEBDF007ECC4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7228F7FB281AEBDF007ECC4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7228F7FD281AEBDF007ECC4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7228F803281C1F40007ECC4A /* SunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunViewController.swift; sourceTree = "<group>"; };
+		7228F803281C1F40007ECC4A /* SunMoonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunMoonViewController.swift; sourceTree = "<group>"; };
+		7256E87C282977EC00F9D116 /* Moon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moon.swift; sourceTree = "<group>"; };
 		72A52D272824368C00990E7D /* README3.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README3.md; sourceTree = "<group>"; };
 		72A7C373282036A400408EB6 /* README2.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README2.md; sourceTree = "<group>"; };
 		72E985F72828AF9E00AF1FA7 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
@@ -71,8 +73,9 @@
 				7228F7EF281AEBDD007ECC4A /* AppDelegate.swift */,
 				7228F7F1281AEBDD007ECC4A /* SceneDelegate.swift */,
 				7228F7F3281AEBDD007ECC4A /* ViewController.swift */,
-				7228F803281C1F40007ECC4A /* SunViewController.swift */,
+				7228F803281C1F40007ECC4A /* SunMoonViewController.swift */,
 				72271FA9281C5A8400B39463 /* Sun.swift */,
+				7256E87C282977EC00F9D116 /* Moon.swift */,
 				72E985F72828AF9E00AF1FA7 /* Quote.swift */,
 				7228F7F5281AEBDD007ECC4A /* Main.storyboard */,
 				7228F7F8281AEBDF007ECC4A /* Assets.xcassets */,
@@ -154,7 +157,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				72271FAA281C5A8400B39463 /* Sun.swift in Sources */,
-				7228F804281C1F40007ECC4A /* SunViewController.swift in Sources */,
+				7256E87D282977EC00F9D116 /* Moon.swift in Sources */,
+				7228F804281C1F40007ECC4A /* SunMoonViewController.swift in Sources */,
 				7228F7F4281AEBDD007ECC4A /* ViewController.swift in Sources */,
 				7228F7F0281AEBDD007ECC4A /* AppDelegate.swift in Sources */,
 				72E985F82828AF9E00AF1FA7 /* Quote.swift in Sources */,

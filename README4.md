@@ -3,7 +3,7 @@
 1.  Embed first view controller in tab bar controller
 2.  Select tab and in bar item attributes for tab set title to Home and image to house.  At the top set selectedItem to house.fill
 3.  CTRL drag from tab bar controller to sun and select relationship segue: view controllers
-4.  Change title of tab to "Sun" and set image to sun.max and selectedItem image to sun.max.fill
+4.  Change title of tab to "Sun / Moon" and set image to moon.circle and selectedItem image to moon.circle.fill
 
 5.  build & run to make sure it works
 

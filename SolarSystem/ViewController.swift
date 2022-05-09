@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         override func viewDidLoad() {
             super.viewDidLoad()
             quoteTextView.text = self.quote.randomQuote
+            self.navigationController?.navigationBar.tintColor = .black
             
         }
 }

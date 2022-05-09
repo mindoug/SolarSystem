@@ -72,7 +72,7 @@
         <!--Sun View Controller-->
         <scene sceneID="axT-lv-J3L">
             <objects>
-                <viewController id="1U3-UV-7g7" userLabel="Sun View Controller" customClass="SunViewController" customModule="SolarSystem" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="1U3-UV-7g7" userLabel="Sun View Controller" customClass="SunMoonViewController" customModule="SolarSystem" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gt6-DI-9pm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -94,7 +94,7 @@
                                     </label>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="150" translatesAutoresizingMaskIntoConstraints="NO" id="hlN-JN-S40">
                                         <rect key="frame" x="18" y="395" width="378" height="31"/>
-                                        <color key="tintColor" systemColor="systemOrangeColor"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="hkh-gY-wgi"/>
                                         </constraints>
@@ -182,9 +182,11 @@
                     <connections>
                         <outlet property="distanceLabel" destination="V8o-kP-Uzd" id="JD3-W8-4Ly"/>
                         <outlet property="distanceSlider" destination="hlN-JN-S40" id="WeX-Ak-sUQ"/>
+                        <outlet property="howFarLabel" destination="SAj-CT-XAa" id="gvE-BR-uKl"/>
                         <outlet property="imageView" destination="nHE-9A-ETW" id="chq-1q-yLp"/>
                         <outlet property="infoTextView" destination="rdt-Wq-zzD" id="DRP-Gh-e8x"/>
                         <outlet property="lightSwitch" destination="wC1-RF-Qwc" id="Sc4-R0-tTl"/>
+                        <outlet property="mileLabel" destination="Tci-rJ-ueb" id="mkw-X3-S7r"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="igT-cS-pEY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

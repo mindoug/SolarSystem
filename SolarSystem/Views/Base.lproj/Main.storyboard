@@ -48,6 +48,9 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" selectedImage="house.fill" id="JFI-ia-wDl"/>
                     <navigationItem key="navigationItem" id="aAN-Fa-X9c"/>
+                    <connections>
+                        <outlet property="quoteTextView" destination="EZT-jt-hEH" id="A5g-LO-1ln"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

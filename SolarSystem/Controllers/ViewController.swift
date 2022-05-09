@@ -9,9 +9,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
+    var quote = Quote()
+        
+        @IBOutlet weak var quoteTextView: UITextView!
+        
+
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            quoteTextView.text = self.quote.randomQuote
+            
+        }
+
     
 }
 

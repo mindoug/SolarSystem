@@ -81,7 +81,7 @@
                                     </label>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="150" translatesAutoresizingMaskIntoConstraints="NO" id="hlN-JN-S40">
                                         <rect key="frame" x="18" y="366" width="378" height="31"/>
-                                        <color key="tintColor" systemColor="systemOrangeColor"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="hkh-gY-wgi"/>
                                         </constraints>
@@ -116,8 +116,8 @@
                                             <constraint firstAttribute="height" constant="31" id="NoU-xo-Z6K"/>
                                         </constraints>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <color key="onTintColor" systemColor="systemOrangeColor"/>
-                                        <color key="thumbTintColor" systemColor="systemYellowColor"/>
+                                        <color key="onTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="thumbTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <action selector="lightSwitchToggled:" destination="1U3-UV-7g7" eventType="valueChanged" id="JFF-IY-pBe"/>
                                         </connections>
@@ -169,14 +169,16 @@
                             <constraint firstAttribute="trailing" secondItem="3PD-GG-PkE" secondAttribute="trailing" id="jLM-Zo-RXs"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Sun" image="sun.max" catalog="system" selectedImage="sun.max.fill" id="7gv-St-y0V"/>
+                    <tabBarItem key="tabBarItem" title="Sun / Moon" image="moon.circle" catalog="system" selectedImage="moon.circle.fill" id="7gv-St-y0V"/>
                     <navigationItem key="navigationItem" id="0eA-yU-Pun"/>
                     <connections>
                         <outlet property="distanceLabel" destination="V8o-kP-Uzd" id="JD3-W8-4Ly"/>
                         <outlet property="distanceSlider" destination="hlN-JN-S40" id="WeX-Ak-sUQ"/>
+                        <outlet property="howFarLabel" destination="SAj-CT-XAa" id="UrB-jM-0SH"/>
                         <outlet property="imageView" destination="nHE-9A-ETW" id="chq-1q-yLp"/>
                         <outlet property="infoTextView" destination="rdt-Wq-zzD" id="DRP-Gh-e8x"/>
                         <outlet property="lightSwitch" destination="wC1-RF-Qwc" id="Sc4-R0-tTl"/>
+                        <outlet property="mileLabel" destination="Tci-rJ-ueb" id="5Gc-7k-gEr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="igT-cS-pEY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -385,7 +387,7 @@
                         <viewLayoutGuide key="safeArea" id="giL-az-c4r"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="NASA" image="moon" catalog="system" selectedImage="moon.fill" id="n6h-7U-JHq"/>
+                    <tabBarItem key="tabBarItem" title="NASA" image="circle.and.line.horizontal" catalog="system" selectedImage="circle.and.line.horizontal.fill" id="n6h-7U-JHq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w42-Fb-MBh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -435,17 +437,18 @@
         </scene>
     </scenes>
     <resources>
+        <image name="circle.and.line.horizontal" catalog="system" width="128" height="88"/>
+        <image name="circle.and.line.horizontal.fill" catalog="system" width="128" height="88"/>
         <image name="circle.fill" catalog="system" width="128" height="121"/>
         <image name="circlebadge.2" catalog="system" width="128" height="93"/>
         <image name="circlebadge.2.fill" catalog="system" width="128" height="91"/>
         <image name="earthandmoon" width="400" height="400"/>
         <image name="house" catalog="system" width="128" height="106"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
-        <image name="moon" catalog="system" width="128" height="121"/>
-        <image name="moon.fill" catalog="system" width="128" height="121"/>
+        <image name="moon.circle" catalog="system" width="128" height="121"/>
+        <image name="moon.circle.fill" catalog="system" width="128" height="121"/>
         <image name="solarsystem" width="400" height="400"/>
         <image name="sun" width="400" height="400"/>
-        <image name="sun.max" catalog="system" width="128" height="124"/>
         <image name="sun.max.fill" catalog="system" width="128" height="124"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

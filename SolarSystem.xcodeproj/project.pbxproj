@@ -15,6 +15,7 @@
 		7228F7F9281AEBDF007ECC4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7228F7F8281AEBDF007ECC4A /* Assets.xcassets */; };
 		7228F7FC281AEBDF007ECC4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7228F7FA281AEBDF007ECC4A /* LaunchScreen.storyboard */; };
 		7228F804281C1F40007ECC4A /* SunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7228F803281C1F40007ECC4A /* SunViewController.swift */; };
+		7256E877282964EE00F9D116 /* Moon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7256E876282964EE00F9D116 /* Moon.swift */; };
 		72D79C5A28270FF500ED4DCE /* PlanetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D79C5928270FF500ED4DCE /* PlanetTableViewCell.swift */; };
 		72D79C5C282711C800ED4DCE /* PlanetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D79C5B282711C800ED4DCE /* PlanetTableViewController.swift */; };
 		72D79C5E2827129600ED4DCE /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D79C5D2827129600ED4DCE /* Planet.swift */; };
@@ -35,6 +36,7 @@
 		7228F7FB281AEBDF007ECC4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7228F7FD281AEBDF007ECC4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7228F803281C1F40007ECC4A /* SunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunViewController.swift; sourceTree = "<group>"; };
+		7256E876282964EE00F9D116 /* Moon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moon.swift; sourceTree = "<group>"; };
 		72688F6928245D1900F7C045 /* README4.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README4.md; sourceTree = "<group>"; };
 		72A52D272824368C00990E7D /* README3.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README3.md; sourceTree = "<group>"; };
 		72A7C373282036A400408EB6 /* README2.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README2.md; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				72271FA9281C5A8400B39463 /* Sun.swift */,
+				7256E876282964EE00F9D116 /* Moon.swift */,
 				72D79C5D2827129600ED4DCE /* Planet.swift */,
 				72E985FD2828BEAC00AF1FA7 /* Quote.swift */,
 			);
@@ -210,6 +213,7 @@
 				72E657BD282846DE00F022E5 /* DetailViewController.swift in Sources */,
 				72D79C5A28270FF500ED4DCE /* PlanetTableViewCell.swift in Sources */,
 				72D79C602827150600ED4DCE /* Constants.swift in Sources */,
+				7256E877282964EE00F9D116 /* Moon.swift in Sources */,
 				72E985FE2828BEAC00AF1FA7 /* Quote.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

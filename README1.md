@@ -11,7 +11,7 @@ Session 1 Objectives:
 - Note a label is set to 1 lines by default and will truncate.  Change setting to 0 to allow a second line.
   
 Session 2 Objectives:
-- Create a button, image, slider, switch, scroll view and make the appropriate connections and underlying code.
+- Create a button, image, slider, switch, text view and make the appropriate connections and underlying code.
 - Use a button to segue to second view controller
 - Create and set custom class for second view controller
 - Create a swift file with a Sun struct 

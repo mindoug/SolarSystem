@@ -8,9 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var quote = Quote()
+    
+    @IBOutlet weak var quoteTextView: UITextView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        quoteTextView.text = self.quote.randomQuote
         
     }
     

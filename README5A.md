@@ -1,5 +1,19 @@
 #  Table View Controller
 
+In this section students will develop a basic understanding of implementing a table view controller by adding a table view and detail view controller in the app.  More advanced table views will be not be used in this beginning course.
+
+Students will learn:
+    - A table view inherits from UITableView class. It is a scrolling list of data that can be grouped into sections and can have a header and footer.
+    - A table view is a great way to display data from an array. The array's count property can inform the table view of how many rows are needed.
+    - Each row in a table view is represented by a cell, which is a reusable view. The cell is given a reuse identifier that allows you to pass in the desired cell type to the table view when needed.
+    - Table views use cell dequeuing to load only visible cells plus a few extra to enable smooth scrolling and save memory.
+    - An index path points to a specific row. It can be accessed by its row and section properties.
+    - There are 2 ways to implement a table view- Dragging on a table view controller, or adding a table view to a view controller.  Each has advantages and disadvantages.
+    - A table view must have a data source that acts as an intermediary between the table view and the app's data model. An optional delegate manages the table's appearance and behavior.  The delegate and data source are defined in protocols.  The cellForRowAt and numberOfRowsInSection methods are required. The optional numberOfSections method will default to 1 if is not provided.
+    - In cellForRowAt, we 1) fetch the correct cell type 2) fetch the model object to be displayed  3) Configure the cell's properties 4) Return the cell
+    
+Steps:
+
 1.  Drag a table view controller on to the storyboard.  Select the table view and in the size inspector, set the row height to 110. 
 
 2.  Embed in a nav contorller. CTRL drag from tab bar controller to nav controller and select relationship segue: view controllers.  Set the Item to Planets and select SF symbol.

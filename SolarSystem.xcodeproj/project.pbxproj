@@ -48,7 +48,6 @@
 		72E657BB2828136400F022E5 /* README5B.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README5B.md; sourceTree = "<group>"; };
 		72E657BC282846DE00F022E5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		72E985FD2828BEAC00AF1FA7 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
-		72E986012828C04B00AF1FA7 /* README6.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README6.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +70,6 @@
 				72688F6928245D1900F7C045 /* README4.md */,
 				72D79C58282707D500ED4DCE /* README5A.md */,
 				72E657BB2828136400F022E5 /* README5B.md */,
-				72E986012828C04B00AF1FA7 /* README6.md */,
 				7228F7EE281AEBDD007ECC4A /* SolarSystem */,
 				7228F7ED281AEBDD007ECC4A /* Products */,
 			);

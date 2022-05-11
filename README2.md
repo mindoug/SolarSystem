@@ -2,6 +2,8 @@
 
 Session 3- Autolayout
 
+AutoLayout and Stack Views are covered in Unit 2 of Develop in Swift Fundamentals.  
+
 Home
 - Delete unnecessary view (frame) and any extra labels.  
 - Change image view to aspect fill and set contraints to match safe area so that the image covers the screen.

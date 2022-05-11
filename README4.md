@@ -17,5 +17,5 @@
 
 9.  build and run again to check
 
-10. Add a view controller called NASA and set up tabs.  
+10. Add a view controller called NASA and set up tabs.  This view can be used for student's original design.  (Name can later be changed if needed.)
 

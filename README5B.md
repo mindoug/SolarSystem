@@ -1,5 +1,6 @@
 #  Detail View Controller
 
+
 1.  Drag a new view controller on to the story board next to the Table View. 
 
 2.  Add an image view, label, label, text field, label and text field.  
@@ -11,7 +12,7 @@
 
 5.  Drag from the table view controller to the detail view controller and select show.  Select the segue and give the view controller an ID of "planetSegue"
 
-6.  On the detail view controller, add local properties for each item:
+6.  On the detail view controller, add properties for each item:
     var name = ""
     var image = UIImage()
     var planetDescription = ""

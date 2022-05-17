@@ -385,14 +385,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="zzF-74-4t8">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="zzF-74-4t8">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1bN-w6-SVG">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="476"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="456"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U9S-mg-QPt">
-                                        <rect key="frame" x="0.0" y="496" width="414" height="40"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U9S-mg-QPt">
+                                        <rect key="frame" x="0.0" y="466" width="414" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="P4v-JU-RhC"/>
                                         </constraints>
@@ -400,8 +400,8 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="copyright" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q0e-zf-j8D">
-                                        <rect key="frame" x="0.0" y="556" width="414" height="20"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q0e-zf-j8D">
+                                        <rect key="frame" x="0.0" y="516" width="414" height="20"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="20" id="gc1-x1-4F2"/>
                                         </constraints>
@@ -410,13 +410,13 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7AN-Az-z9A">
-                                        <rect key="frame" x="0.0" y="596" width="414" height="300"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <rect key="frame" x="0.0" y="546" width="414" height="350"/>
+                                        <color key="backgroundColor" systemColor="labelColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="300" id="Cep-kp-ul4"/>
+                                            <constraint firstAttribute="height" constant="350" id="Cep-kp-ul4"/>
                                         </constraints>
                                         <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                        <color key="textColor" systemColor="labelColor"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -433,6 +433,12 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="NASA" image="circle.and.line.horizontal" catalog="system" selectedImage="circle.and.line.horizontal.fill" id="n6h-7U-JHq"/>
+                    <connections>
+                        <outlet property="copyrightLabel" destination="Q0e-zf-j8D" id="no2-2C-Hdf"/>
+                        <outlet property="descriptionLabel" destination="7AN-Az-z9A" id="gk8-rf-NbF"/>
+                        <outlet property="nasaImage" destination="1bN-w6-SVG" id="lG5-uj-RzZ"/>
+                        <outlet property="titleLabel" destination="U9S-mg-QPt" id="MWV-60-cEg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w42-Fb-MBh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

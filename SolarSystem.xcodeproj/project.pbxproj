@@ -18,6 +18,7 @@
 		7256E877282964EE00F9D116 /* Moon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7256E876282964EE00F9D116 /* Moon.swift */; };
 		72C0531528330A3A0088D0C9 /* NASAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C0531428330A3A0088D0C9 /* NASAViewController.swift */; };
 		72C0531728330DB30088D0C9 /* PhotoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C0531628330DB30088D0C9 /* PhotoInfo.swift */; };
+		72C0531928331F860088D0C9 /* PhotoInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C0531828331F860088D0C9 /* PhotoInfoController.swift */; };
 		72D79C5A28270FF500ED4DCE /* PlanetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D79C5928270FF500ED4DCE /* PlanetTableViewCell.swift */; };
 		72D79C5C282711C800ED4DCE /* PlanetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D79C5B282711C800ED4DCE /* PlanetTableViewController.swift */; };
 		72D79C5E2827129600ED4DCE /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D79C5D2827129600ED4DCE /* Planet.swift */; };
@@ -45,6 +46,7 @@
 		72C05313283305EE0088D0C9 /* AdultCohort.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AdultCohort.md; sourceTree = "<group>"; };
 		72C0531428330A3A0088D0C9 /* NASAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAViewController.swift; sourceTree = "<group>"; };
 		72C0531628330DB30088D0C9 /* PhotoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfo.swift; sourceTree = "<group>"; };
+		72C0531828331F860088D0C9 /* PhotoInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfoController.swift; sourceTree = "<group>"; };
 		72D79C58282707D500ED4DCE /* README5A.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README5A.md; sourceTree = "<group>"; };
 		72D79C5928270FF500ED4DCE /* PlanetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetTableViewCell.swift; sourceTree = "<group>"; };
 		72D79C5B282711C800ED4DCE /* PlanetTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetTableViewController.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				72D79C5B282711C800ED4DCE /* PlanetTableViewController.swift */,
 				72E657BC282846DE00F022E5 /* DetailViewController.swift */,
 				72C0531428330A3A0088D0C9 /* NASAViewController.swift */,
+				72C0531828331F860088D0C9 /* PhotoInfoController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				7228F7F2281AEBDD007ECC4A /* SceneDelegate.swift in Sources */,
 				72E657BD282846DE00F022E5 /* DetailViewController.swift in Sources */,
 				72D79C5A28270FF500ED4DCE /* PlanetTableViewCell.swift in Sources */,
+				72C0531928331F860088D0C9 /* PhotoInfoController.swift in Sources */,
 				72D79C602827150600ED4DCE /* Constants.swift in Sources */,
 				7256E877282964EE00F9D116 /* Moon.swift in Sources */,
 				72E985FE2828BEAC00AF1FA7 /* Quote.swift in Sources */,

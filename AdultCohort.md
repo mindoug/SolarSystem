@@ -34,8 +34,11 @@ Image View, 2 Labels, and a Text View.  Adjust background and text colors as you
     }
 }
 
-5.  a. You will need a function to fetch the photo info.  Create a       new .swift file and name it PhotoInfoController.  Add your          fetchPhotoInfo function to that class.
-    b.  You will need to set up an enum at the top called PhotoInfoError to handle the error referenced in the function you created. 
+5.  You will be making 2 network requests.  One will fetch the photo info and one will fetch the image itself.
+
+    a. You will need a function to fetch the photo info and a second function to fetch the image.  Create a new .swift file and name it PhotoInfoController.  Add your fetchPhotoInfo and fetchImage functions to that class.
+
+    b.  You will also need to set up an enum at the top called PhotoInfoError to handle the error referenced in the functions you created. 
 
        class PhotoInfoController {
     

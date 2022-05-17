@@ -10,7 +10,7 @@ Image View, 2 Labels, and a Text View.  Adjust background and text colors as you
     - Title label below that with height of 40. Set font to Large Title.
     - Copyright label next with a height of 20. Set font to Title 2.
     - Description text view with a height of 350. Set font to body.
-    - Embed everyting in a vertical stack view with 0, 0, 0, 0 constraints. Alignment and Distribution = Fill and spacing = 10. Content mode = Scale To Fill.
+    - Embed everyting in a vertical stack view with 10, 10, 10, 10 constraints. Alignment and Distribution = Fill and spacing = 10. Content mode = Scale To Fill.
 
     By not setting a height on the image but setting it on everything else, it will stretch or shrink based on the size of the device.
 
@@ -131,4 +131,11 @@ Image View, 2 Labels, and a Text View.  Adjust background and text colors as you
             copyrightLabel.text = ""
         }
     }
+
+
+8. to change image tint colors for system image:
+
+        let configuration = UIImage.SymbolConfiguration(hierarchicalColor: .systemGray)
+        let image = UIImage(systemName: "photo.on.rectangle", withConfiguration: configuration)
+        nasaImage.image = image
 

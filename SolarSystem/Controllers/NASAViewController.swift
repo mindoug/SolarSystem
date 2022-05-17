@@ -23,7 +23,9 @@ class NASAViewController: UIViewController {
         super.viewDidLoad()
         
         titleLabel.text = ""
-        nasaImage.image = UIImage(systemName: "photo.on.rectangle")
+        let configuration = UIImage.SymbolConfiguration(hierarchicalColor: .systemGray)
+        let image = UIImage(systemName: "photo.on.rectangle", withConfiguration: configuration)
+        nasaImage.image = image
         descriptionLabel.text = ""
         copyrightLabel.text = ""
         
@@ -54,7 +56,11 @@ class NASAViewController: UIViewController {
     
     func updateUI(with error: Error) {
         title = "Error Fetching Photo"
-        nasaImage.image = UIImage(systemName: "exclamationmark.octagon")
+        let configuration = UIImage.SymbolConfiguration(hierarchicalColor: .systemGray)
+        let errorImage = UIImage(systemName: "exclamationmark.octagon", withConfiguration: configuration)
+        
+        nasaImage.image = errorImage
+    
         descriptionLabel.text = error.localizedDescription
         copyrightLabel.text = ""
     }

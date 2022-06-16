@@ -1,5 +1,5 @@
 //
-//  ExploreViewController.swift
+//  SunMoonViewController.swift
 //  SolarSystem
 //
 //  Created by Mindy Douglas on 4/29/22.

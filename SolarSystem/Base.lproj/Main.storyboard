@@ -74,7 +74,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <action selector="keyboaredReturnKeyTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="Oqq-fT-WWL"/>
+                                    <action selector="keyboardReturnKeyTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="W5p-Ky-qWz"/>
                                 </connections>
                             </textField>
                         </subviews>
@@ -89,10 +89,10 @@
             </objects>
             <point key="canvasLocation" x="-397.10144927536237" y="72.991071428571431"/>
         </scene>
-        <!--Explore View Controller-->
+        <!--Sun View Controller-->
         <scene sceneID="axT-lv-J3L">
             <objects>
-                <viewController id="1U3-UV-7g7" customClass="ExploreViewController" customModule="SolarSystem" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="1U3-UV-7g7" customClass="SunViewController" customModule="SolarSystem" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gt6-DI-9pm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

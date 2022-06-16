@@ -1,5 +1,5 @@
 //
-//  ExploreViewController.swift
+//  SunViewController.swift
 //  SolarSystem
 //
 //  Created by Mindy Douglas on 4/29/22.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ExploreViewController: UIViewController {
+class SunViewController: UIViewController {
     
     let sunInfo = Sun().info
     

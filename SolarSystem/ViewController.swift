@@ -17,11 +17,11 @@ class ViewController: UIViewController {
     }
     
     // select primary action triggered
-    @IBAction func keyboaredReturnKeyTapped(_ sender: UITextField) {
+    
+    @IBAction func keyboardReturnKeyTapped(_ sender: UITextField) {
         if let text = sender.text {
             nameLabel.text = "Welcome, \(text)"
         }
     }
-    
 }
 

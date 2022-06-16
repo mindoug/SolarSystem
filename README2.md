@@ -3,7 +3,7 @@
 Session 3- Autolayout
 
 Home
-- Delete unnecessary view (frame) and any extra labels.  
+- Delete unnecessary view (frame) and any extra labels and text field.  
 - Change image view to aspect fill and set contraints to match safe area so that the image covers the screen.
 - Change text of quote to white and adjust placement
 - Allow Xcode to suggest appropriate constriants

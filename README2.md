@@ -35,8 +35,7 @@ ADD MOON:
         distanceSlider.minimumValue = 0
         distanceSlider.maximumValue = 93
         infoTextView.text = sunInfo
-        infoTextView.textColor = .black
-        infoTextView.backgroundColor = .systemYellow
+        infoTextView.backgroundColor = .clear
         imageView.image = UIImage(named: "sun")
         mileLabel.text = "MILLION miles"
         mileLabel.backgroundColor = .systemYellow
@@ -61,7 +60,6 @@ ADD MOON:
             distanceSlider.maximumValue = 238.855
             infoTextView.text = moonInfo
             infoTextView.textColor = .white
-            infoTextView.backgroundColor = .black
             mileLabel.text = "THOUSAND miles"
             mileLabel.backgroundColor = .black
             mileLabel.textColor = .white

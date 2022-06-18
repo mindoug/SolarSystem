@@ -12,12 +12,9 @@ Home
 
 Sun
 - Rename view controller to SunMoonViewController because it makes more sense (demo refactor/rename) and make sure to set class
-- put everything in vertical stack (center, fill, 20 spacing)
-- set scroll view constraints top, leading, bottom, trailing to 0 and 200 in height
-- set infoTextView constraints 0, 0, 0, 0 (pins to frame layout guide)
-- ctrl drag infoTextView to frame layout guide and set equal height and width to frame layout
-- add height constraints and top/bottom spacing for each of the items except the sun image. Pin sun image 0,0,0 on top, leading and trailing. 
-- put everything in a vertical stack view centered and set top, bottom, leading and trailing constraints for the stack view
+- put everything in vertical stack (center, fill, 10 spacing) and constraints to 0, 0, 0, 0
+- set infoTextView constraints 10 leading and trailing and set height to 210 
+- add height constraints to each UIelement and either set leading and trailing constraint or center horizontally
 
 ADD MOON:
 
@@ -38,7 +35,7 @@ ADD MOON:
         distanceSlider.maximumValue = 93
         infoTextView.text = sunInfo
         infoTextView.textColor = .black
-        infoTextView.backgroundColor = .systemYellow
+        infoTextView.backgroundColor = .clear
         imageView.image = UIImage(named: "sun")
         mileLabel.text = "MILLION miles"
         mileLabel.backgroundColor = .systemYellow
@@ -63,7 +60,6 @@ ADD MOON:
             distanceSlider.maximumValue = 238.855
             infoTextView.text = moonInfo
             infoTextView.textColor = .white
-            infoTextView.backgroundColor = .black
             mileLabel.text = "THOUSAND miles"
             mileLabel.backgroundColor = .black
             mileLabel.textColor = .white

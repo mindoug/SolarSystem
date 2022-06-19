@@ -352,9 +352,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="P0m-TP-dC8"/>
                     <connections>
-                        <outlet property="planetDescriptionLabel" destination="Ntc-2J-liD" id="ty1-Jp-JFi"/>
                         <outlet property="planetDescriptionTextView" destination="fWk-4K-khV" id="S0c-Rg-0Z5"/>
-                        <outlet property="planetFactLabel" destination="w1u-RA-cvM" id="tR9-WA-BVD"/>
                         <outlet property="planetFactTextView" destination="oUQ-rB-tU4" id="mnH-l4-joh"/>
                         <outlet property="planetImage" destination="D5y-Nc-aFt" id="fHi-HI-RqL"/>
                         <outlet property="planetNameLabel" destination="Nzn-Xw-fES" id="6IU-Ya-B5q"/>

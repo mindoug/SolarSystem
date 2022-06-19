@@ -18,9 +18,7 @@ class DetailViewController: UIViewController {
     
     @IBOutlet weak var planetImage: UIImageView!
     @IBOutlet weak var planetNameLabel: UILabel!
-    @IBOutlet weak var planetDescriptionLabel: UILabel!
     @IBOutlet weak var planetDescriptionTextView: UITextView!
-    @IBOutlet weak var planetFactLabel: UILabel!
     @IBOutlet weak var planetFactTextView: UITextView!
     
     

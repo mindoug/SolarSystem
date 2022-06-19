@@ -11,35 +11,30 @@ class PlanetTableViewController: UITableViewController {
     
     var planets = [Planet]()
 
-
     override func viewDidLoad() {
         super.viewDidLoad()
         planets = Planet.loadPlanets()
     }
     
-
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
+       
+        // return the number of rows
+        
         return planets.count
     }
 
-   
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         // step 1 dequeue cell
-        
         let cell = tableView.dequeueReusableCell(withIdentifier: "PlanetCell", for: indexPath) as! PlanetTableViewCell
 
         // step 2 fetch model object to display
-        
         let planet = planets[indexPath.row]
         
         // step 3 configure cell
-        
         cell.update(with: planet)
         
         // step 4 return cell
-        
         return cell
     }
     
@@ -60,6 +55,4 @@ class PlanetTableViewController: UITableViewController {
             destination.planet = sender
         }
     }
-
-
 }

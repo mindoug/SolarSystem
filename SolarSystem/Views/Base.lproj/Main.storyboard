@@ -352,9 +352,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="P0m-TP-dC8"/>
                     <connections>
-                        <outlet property="planetDescriptionLabel" destination="Ntc-2J-liD" id="ty1-Jp-JFi"/>
                         <outlet property="planetDescriptionTextView" destination="fWk-4K-khV" id="S0c-Rg-0Z5"/>
-                        <outlet property="planetFactLabel" destination="w1u-RA-cvM" id="tR9-WA-BVD"/>
                         <outlet property="planetFactTextView" destination="oUQ-rB-tU4" id="mnH-l4-joh"/>
                         <outlet property="planetImage" destination="D5y-Nc-aFt" id="fHi-HI-RqL"/>
                         <outlet property="planetNameLabel" destination="Nzn-Xw-fES" id="6IU-Ya-B5q"/>
@@ -390,6 +388,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <tabBarAppearance key="scrollEdgeAppearance"/>
                     </tabBar>
                     <connections>
@@ -423,6 +423,7 @@
             <point key="canvasLocation" x="1000" y="770"/>
         </scene>
     </scenes>
+    <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
         <image name="circle.and.line.horizontal" catalog="system" width="128" height="88"/>
         <image name="circle.and.line.horizontal.fill" catalog="system" width="128" height="88"/>

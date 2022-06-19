@@ -9,7 +9,7 @@ import UIKit
 
 class SunMoonViewController: UIViewController {
     
-    let sunInfo = Sun().info
+     let sunInfo = Sun().info
      let moonInfo = Moon().info
      
      @IBOutlet weak var imageView: UIImageView!

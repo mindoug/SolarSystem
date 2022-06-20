@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SunViewController: UIViewController {
+class SunMoonViewController: UIViewController {
     
     let sunInfo = Sun().info
     let moonInfo = Moon().info
